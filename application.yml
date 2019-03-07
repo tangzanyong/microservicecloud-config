@@ -1,0 +1,16 @@
+spring: 
+  profiles: 
+    active:
+    - dev
+---
+spring: 
+  profiles: dev  #开发环境
+  application: 
+    name: microservicecloud-config-tzy-dev
+---
+spring: 
+  profiles: test  #测试环境  
+  application: 
+    name: microservicecloud-config-tzy-test
+    
+#请以UTF-8编码保存
